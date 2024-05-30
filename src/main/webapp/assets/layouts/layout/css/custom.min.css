@@ -1,0 +1,174 @@
+.table-scrollable { 
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+.tabnow {
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: center;
+}
+
+.tabw {
+    white-space: normal;
+    vertical-align: top;
+    text-align: center;
+}
+
+.raftable {
+    height: 100px;
+    vertical-align: top;
+}
+.raftablefirefox {
+    vertical-align: top;
+}
+
+.inputright {
+    text-align: right;
+}
+.inputbold{
+    font-weight: bold;
+}
+.vr-all {
+    border-right:1px solid #CC0000;
+}
+.hrraf {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #3598dc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.middletd{
+    vertical-align: middle;
+}
+
+.popoverraf  {
+    background: tomato!important;
+}
+
+select.disabled {
+    color: graytext;
+}
+
+hv{
+    cursor: pointer;
+}
+
+
+.modal:nth-of-type(even) {
+    /* z-index: 9999 !important;*/
+}
+.modal-backdrop.in:nth-of-type(even) {
+    /* z-index: 9998 !important;*/
+}
+
+
+.anewdisabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.paddtop{
+    padding-top: 35px;
+}
+
+.ital{
+    font-style: italic;
+}
+
+
+.trred  {
+    background: #AAB5BC;
+}
+
+.dropdown-menu.columns-2 {
+    min-width: 600px;
+}
+
+.dropdown-menu.columns-3 {
+    min-width: 600px;
+}
+.dropdown-menu li a {
+    font-weight: 300;
+}
+.multi-column-dropdown {
+    list-style: none;
+}
+.multi-column-dropdown li a {
+    padding: 8px 16px;
+    color: #6f6f6f;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+}
+.multi-column-dropdown li a:hover {
+    text-decoration: none;
+    color: #262626;
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 767px) {
+    .dropdown-menu.multi-column {
+        min-width: 240px !important;
+        overflow-x: hidden;
+    }
+}
+
+
+.ab {
+    margin: 0px;
+}
+
+.vr
+{
+    display:inline;
+    height:100%;
+    width:1px;
+    border:1px inset;
+    border-color: #262626;
+    margin:5px
+}
+
+.ltr{
+    text-decoration:line-through;
+    font-style: italic;
+}
+
+span.tab{
+    padding: 0 50px; /* Or desired space*/
+}
+
+
+.vebo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.separatordt {
+    background-color: #3598dc;
+    color: #3598dc;
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: center;
+    height: 2px;
+}
+
+.separatordtS {
+    background-color: #2ab4c0;
+    color: #2ab4c0;
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: center;
+    height: 2px;
+}
+
+.redtext{
+    color: #CC0000;
+}

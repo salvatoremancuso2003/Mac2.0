@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <context-root>/Mac2.0</context-root>
+    
+    <!--ITALIA-->
+    <!--COLLAUDO-->
+    <virtual-host>test.mactwo.loc</virtual-host>
+    <!--PRODUZIONE
+    <virtual-host>it.mactwo.loc</virtual-host>-->
+    
+    <!--REP.CECA-->
+    <!--COLLAUDO
+    <virtual-host>testcz.mactwo.loc</virtual-host>-->
+    <!--PRODUZIONE
+    <virtual-host>cz.mactwo.loc</virtual-host>-->
+    
+    <!--UK-->
+    <!--COLLAUDO
+    <virtual-host>testuk.mactwo.loc</virtual-host>-->
+    <!--PRODUZIONE
+    <virtual-host>uk.mactwo.loc</virtual-host>-->
+</jboss-web>
